@@ -281,25 +281,4 @@ A minimal yet robust Symfony foundation for mastering admin panels and role mana
     * Visit `/login`, authenticate with an admin user.
     * Confirm that `/admin` requires login and only users with `ROLE_ADMIN` can access.
 
-12. **Push to GitHub**:
-    ... **Test Authentication**:
 
-    * Visit `/login`, authenticate with an admin user.
-    * Confirm that `/admin` requires login and only users with `ROLE_ADMIN` can access.
-
-13. **Push to GitHub**:
-
-    1. Initialize a Git repository if not done:
-
-       ```bash
-       git init
-       git add .
-       git commit -m "Initial Symfony admin panel skeleton"
-       ```
-    2. Create a remote repo and push:
-
-       ```bash
-       git remote add origin <your-repo-url>
-       git branch -M main
-       git push -u origin main
-       ```
